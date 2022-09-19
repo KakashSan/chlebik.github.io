@@ -1,0 +1,50 @@
+body {
+    /**background: #513781;**/
+    background: #131313;
+    font-family: Arial;
+    font-weight: 400;
+    color: white;
+}
+
+
+#redirect {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    height: 35px;
+    width: 300px;
+    font-size: larger;
+   /** background-color: #342354;**/
+    border: red;
+    border-radius: 4px;
+    background-color: rgb(5, 170, 170);
+    color: #131313;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(5, 170, 170);;
+}
+
+#button {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(5, 170, 170);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    color: #131313;
+}
+
+#button:hover, #redirect:hover {
+    background: rgba(4, 128, 128, 0.897);
+}

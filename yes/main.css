@@ -1,0 +1,24 @@
+p {
+    color: rgba(255, 255, 255, 0.855);
+    margin: px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+div {
+    margin-top: 25vh;
+    border: solid #00000035;
+    text-align: center;
+    margin-left: 475Px;
+    margin-right: 600px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 550px;
+    background-color: #00000035;
+}
+
+html {
+    background: linear-gradient(45deg, rgb(235, 154, 2), rgb(169, 111, 3), rgb(131, 85, 1));
+}

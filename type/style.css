@@ -1,0 +1,41 @@
+.container {
+    /**border: solid;
+    border-color: black;
+    text-align: center;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;**/
+    height: 200px;/**originalne 500px**/
+    width: 502.5px;
+    /**border: 10px solid #2a2b5f;**/
+    border: solid 10px #1e1e1e;
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    padding-bottom: 0;
+    margin: 50px auto;
+}
+
+html {
+    background-color: #9ba2b2;
+}
+
+.red-btn,
+.yellow-btn,
+.green-btn {
+    display: inline-block;  
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;}
+
+.red-btn {
+    background: rgb(255, 86, 86);
+}
+.yellow-btn {
+    background: rgb(255, 224, 86);
+}
+.green-btn {
+    background: rgb(106, 255, 86);
+}
