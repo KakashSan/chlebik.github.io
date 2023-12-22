@@ -3,7 +3,7 @@ let paysafecard = "0782 8490 8314 9098"
 /*var heslacek = document.getElementById("heslo").value*/
 
 function hesielko() {
-   if(document.getElementById("heslo").value=="smrditijaskyna") {
+   if(document.getElementById("heslo").value=="smrdisjakjaskyna") {
       botkobotko()
    }
    else {
