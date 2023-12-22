@@ -1,9 +1,9 @@
-let paysafecard = "0906-7613-9796-8377"
+let paysafecard = "0782 8490 8314 9098"
 
 /*var heslacek = document.getElementById("heslo").value*/
 
 function hesielko() {
-   if(document.getElementById("heslo").value=="cernamamba") {
+   if(document.getElementById("heslo").value=="smrditijaskyna") {
       botkobotko()
    }
    else {
