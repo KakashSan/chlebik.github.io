@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic File Download</title>
+</head>
+<body>
+    <p>Your download should start automatically. If it doesn’t, <a id="downloadLink" href="https://example.com/yourfile.zip" download>click here to download</a>.</p>
+
+    <script>
+        // Set the URL of the file you want to download
+        const fileUrl = 'https://1drv.ms/u/s!AnRksp1z590M_BcPHWnpBzYme7uD?download=1'; // Replace with the actual URL of your file
+
+        // Function to trigger the download
+        function triggerDownload(url) {
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = ''; // Setting download attribute to trigger download
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        // Run the download function when the page loads
+        window.onload = function() {
+            triggerDownload(fileUrl);
+        };
+    </script>
+</body>
+</html>
